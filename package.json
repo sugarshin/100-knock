@@ -1,0 +1,22 @@
+{
+  "name": "100-knock",
+  "description": "100-knock",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:sugarshin/100-knock.git"
+  },
+  "scripts": {
+    "test": "mocha --compilers js:espower-babel/guess",
+    "test:all": "npm run test -- test/**/*.js"
+  },
+  "engines": {
+    "node": "0.12.x"
+  },
+  "author": "sugarshin",
+  "license": "MIT",
+  "devDependencies": {
+    "espower-babel": "^3.2.0",
+    "mocha": "^2.2.5",
+    "power-assert": "^0.11.0"
+  }
+}
