@@ -1,7 +1,7 @@
 // 02. 「パトカー」＋「タクシー」＝「パタトクカシーー」
 // 「パトカー」＋「タクシー」の文字を先頭から交互に連結して文字列「パタトクカシーー」を得よ．
 
-export default function (...strings) {
+export default function(...strings) {
   const maxLen = strings.reduce((len, current) => {
     return (len >= current.length) ? len : current.length;
   }, 0);
